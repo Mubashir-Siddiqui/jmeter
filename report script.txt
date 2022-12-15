@@ -1,0 +1,2 @@
+
+jmeter -n -t D:\apache-jmeter-5.5\bin\golootlo.jmx -l D:\apache-jmeter-5.5\bin\golootlo.csv -e -o D:\apache-jmeter-5.5\bin\HTML
