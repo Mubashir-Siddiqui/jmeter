@@ -1,0 +1,11 @@
+jmeter -n -t test.jmx -l test.jtl
+
+
+This will run the JMeter test contained in the file test.jmx and save the results to the file test.jtl. The -n flag specifies that JMeter should run in "non-GUI" mode, which means that it will not open the JMeter GUI window.
+
+You can also specify various other options when running JMeter from the command line. For example, you can use the -J flag to set a JMeter property, or the -H and -P flags to specify a proxy server.
+
+For more information on running JMeter from the command line, you can refer to the JMeter documentation or use the jmeter -h command to view a list of available options.
+
+
+
